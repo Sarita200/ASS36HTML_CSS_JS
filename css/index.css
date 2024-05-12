@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #fdf6e7;
+  } 
+  .heading {
+    text-align: center;
+    font-size: 70px;
+    background-color: #C40C0C;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+  }
+  .p {
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    color: #C40C0C;
+    margin: 0;
+    background-color: #ffe6f2;
+  }
+  .box {
+    position: sticky;
+    top: 0;
+  }
+  .nav {
+    text-align: right;
+    display: flex;
+    background-color: #C40C0C;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    z-index: 9999;
+  }
+  .menu{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+  }
+.img-container{
+  margin-top: 200px;
+}
+.footer{
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+}
+.services{
+  text-align: center;
+  color: #C40C0C;
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.icons {
+  width: 130px;
+  height: 130px;
+  margin-top: 10px;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: centre; 
+  justify-content: space-around;
+  align-items: centre;
+  margin-bottom: 60px;
+}
+.delivery {
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+  border: 1px solid black;
+  margin: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px 0px #000;
+}
+.delivery:hover {
+  box-shadow: 5px 5px 5px 2px black;
+  transition: 0.5s;
+}
+.icons {
+  box-shadow: 2px 4px 8px 0px #000;
+  background-color: #C40C0C;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.icons:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.head {
+  font-weight: bold;
+  color: white;
+  color: black;
+  font-size: 35px;
+}
+.para {
+  font-size: 25px;
+  color: white;
+  color: rgb(31, 28, 28);
+  margin-bottom: 20px;
+}
+.footer{
+  height: 400px;
+}
+.quickLinks{
+  font-size: 30px;
+}
+.links{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  margin: 3px;
+}
+.sentence{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
