@@ -1,4 +1,6 @@
-.bottom-down{
+.map{
+    margin-top: 200px;
+}.bottom-down{
     display: flex;
     flex-direction: row;
   }
@@ -35,7 +37,7 @@
     margin: 2px 10px;
   }
   .text {
-    color: #900c3f;
+    color: #C40C0C;
     font-size: 50px;
     font-family: "Cormorant Garamond", serif;
   }
@@ -48,6 +50,7 @@
     margin-bottom: 30px;
     margin-left: 50px;
     margin-top: 10px;
+    text-decoration: none;
   }
   
   .contact {
@@ -61,7 +64,7 @@
   }
   
   .contact-container h1 {
-    color: #900c3f;
+    color: #C40C0C;
     font-size: 4rem;
     padding-bottom: 2rem;
   }
@@ -141,7 +144,7 @@
   .contact-form i {
     font-size: 1.6rem;
   
-    color: #cc0066;
+    color: #C40C0C;
   
     display: flex;
     justify-content: center;
@@ -197,7 +200,7 @@
   
   .contact-form .btn {
     margin-top: 20px;
-    background-color: #900c3f;
+    background-color: #C40C0C;
     padding: 10px 50px;
     font-size: 25px;
   
@@ -211,7 +214,7 @@
     
   }
   .contact-form .btn:hover {
-    background-color: #6b0824;
+    background-color: #C40C0C;
     transform: scale(1.03);
     transition: 0.3s;
   }
