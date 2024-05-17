@@ -1,5 +1,12 @@
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #fdf6e7;
+  }
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,16 +15,22 @@
 body {
     font-family: "Cormorant Garamond", serif;    
 }
+.menu{
+    font-size: 35px;
+    font-family: "Cormorant Garamond", serif;  
+    font-weight: bold;
+}
 .container {
-    width: 100%;
+    width: 120%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e8e8e8;
-    background-image: url("./../images/coffee2.jpg");
+    background-color: #FFFF;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Cormorant Garamond", serif;  
+    font-weight: bold;
 }
 .main {
     position: relative;
@@ -77,8 +90,6 @@ label {
     outline: none;
     border-radius: 4px;
 }
-
-
 
 /*Register*/
 

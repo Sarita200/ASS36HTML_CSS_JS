@@ -28,3 +28,39 @@
     color: rgb(66, 64, 64);
     font-family: "Cormorant Garamond", serif;
   }
+  .add-review{
+    color: black;
+    font-family: "Caveat", cursive;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 5px 3px #4f4c4e;
+    border-radius: 15px;
+    width: 700px;
+    height: 300px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .font-changed{
+    font-size: 47px;
+  }
+  .type{
+    color: black;
+    padding: 9px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    font-size: 37px;
+  }
+  .review-btn{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 27px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+  }

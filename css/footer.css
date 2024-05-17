@@ -70,4 +70,42 @@
       width: 100%;
     }
   }
+  @media (max-width: 991px)
+{
+    footer{
+        padding: 40px;  
+    }
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;}
+    .copyrighttext{
+        padding: 20px 40px 30px;
+    }
+}
+
+@media (max-width:900px){
+    .services{
+      font-size: 20px;
+    }
+    .quickLinks{
+      font-size: 15px;
+    }
+    .links{
+      font-size: 15px;
+    }
+    .logo{
+      width: 17px;
+      height:17px;
+    }
+  .sentence
+  .{
+    font-size: 15px;
+}
+}
+
+
+
+
   
