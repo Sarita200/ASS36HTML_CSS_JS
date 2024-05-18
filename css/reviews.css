@@ -1,119 +1,119 @@
 *{
-    text-decoration: none;
+  text-decoration: none;
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+.font-changed{
+  font-size: 45px;
+  font-family: "Caveat", cursive;
+}
+.about1 {
+    text-align: center;
   }
-  .title{
-      font-size: 80px;
-      text-align: center;
-      font-family: "Caveat", cursive;
-  }
-  .font-changed{
+  .about1 .we-are {
     font-size: 45px;
+    font-family: "Pacifico", cursive;
+  }
+  .about1 .p1 {
+    font-size: 30px;
+    color: rgb(36, 35, 35);
     font-family: "Caveat", cursive;
   }
-  .about1 {
-      text-align: center;
-    }
-    .about1 .we-are {
-      font-size: 45px;
-      font-family: "Pacifico", cursive;
-    }
-    .about1 .p1 {
-      font-size: 30px;
-      color: rgb(36, 35, 35);
-      font-family: "Caveat", cursive;
-    }
-    .members{
-      text-align: center;
-    }
-    .members .we-are {
-      font-size: 70px;
-  
-    }
-    .first-3 .m1 {
-      border-color: black;
-      border-width: 2px;
-      border-style: solid;
-      height: 500px;
-      display: inline-block;
-      justify-content: space-evenly;
-      margin: 20px;
-      padding: 10px;
-      width: 350px;
-      font-size: 30px;
-      box-shadow: 0 0 10px 3px #4f4c4e;
-      border-radius: 15px;
-    }
-    .socials {
-      border-radius: 20px;
-    }
-    .socials:hover {
-      text-decoration: none;
-      box-shadow: 4px 4px 4px 1px black;
-    }
-    .main-div{
-      margin: auto 80px;
-    }
-    .review{
-      font-size: 45px;
-      text-align: center;
-      font-family: "Pacifico", cursive;
-    }
-    .text{
-      color: black;
-    }
+  .members{
+    text-align: center;
+  }
+  .members .we-are {
+    font-size: 70px;
 
-    .TitleReview{
-      font-size: 60px;
-      margin-top: 50pc;
-    }
+  }
+  .first-3 .m1 {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    height: 500px;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    font-size: 30px;
+    box-shadow: 0 0 10px 3px #4f4c4e;
+    border-radius: 15px;
+  }
+  .socials {
+    border-radius: 20px;
+  }
+  .socials:hover {
+    text-decoration: none;
+    box-shadow: 4px 4px 4px 1px black;
+  }
+  .main-div{
+    margin: auto 80px;
+  }
+  .review{
+    font-size: 45px;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+  }
+  .text{
+    color: black;
+  }
 
-    .reviews1{
-      border-color: black;
-      border-width: 2px;
-      border-style: solid;
-      margin: 30px;
-      padding: 15px;
-      box-shadow: 0 0 5px 3px #4f4c4e;
-      border-radius: 15px;
-      width: 500px;
-      justify-content: space-evenly;  
-    }
-    .rewiewContainer{
-        margin-top: 300px;
+  .TitleReview{
+    font-size: 60px;
+    margin-top: 50pc;
+  }
 
-    }
-    .add-review{
-      color: black;
-      font-family: "Caveat", cursive;
-      border-color: black;
-      border-width: 2px;
-      border-style: solid;
-      margin: 30px auto;
-      padding: 10px;
-      box-shadow: 0 0 5px 3px #4f4c4e;
-      border-radius: 15px;
-      width: 500px;
-      justify-content: space-evenly;
-      text-align: center;
-    }
-    .type{
-      color: black;
-      padding: 7px;
-      border-radius: 10px;
-      border-color: black;
-      border-style: solid;
-    }
-    .review-btn{
-      background-color: black;
-      color: white;
-      padding: 7px;
-      font-size: 17px;
-      width: 150px;
-      border-radius: 20px;
-      border-color: black;
-      border-style: solid;
-    }
-    .font-changed1{
-      font-size: 30px;
-      color: antiquewhite;
-    }
+  .reviews1{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px;
+    padding: 15px;
+    box-shadow: 0 0 5px 3px #4f4c4e;
+    border-radius: 15px;
+    width: 500px;
+    justify-content: space-evenly;  
+  }
+  .rewiewContainer{
+      margin-top: 300px;
+
+  }
+  .add-review{
+    color: black;
+    font-family: "Caveat", cursive;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #4f4c4e;
+    border-radius: 15px;
+    width: 500px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .type{
+    color: black;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+  }
+  .review-btn{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 17px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+  }
+  .font-changed1{
+    font-size: 30px;
+    color: antiquewhite;
+  }
