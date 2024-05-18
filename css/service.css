@@ -13,3 +13,14 @@
     margin-top: 200px;
     text-align: center;
 }
+.cardItems{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    color: #C40C0C;
+    font-weight: bold;
+}
+.cardText{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+
+}
